@@ -1,0 +1,25 @@
+body{
+    padding-top: 150px;
+    background-image: url(../img/bgslider.png);
+}
+.form-login{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eee;
+}
+.painel-login {
+     width: 200px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+   
+}
+
+.panel{
+    border-bottom: 0;
+}
+

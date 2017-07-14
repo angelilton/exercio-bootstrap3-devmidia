@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Bootstrap 3</title>
+
+    <!--    difine a viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/estilo.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+  <div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+             <div class="pageheader">
+                  <h1>Janelas Modais</h1>
+                  <button type="button" class="btn btn-primary btn-lg"
+                     data-toggle="modal" data-target="#modal01">
+                      abrir janela modal
+                  </button>
+                  
+                  <!--- inicio da modal -->
+                  <div class="modal fade" id="modal01" role="dialog" tabindex="-1" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                             
+                              <div class="modal-header">
+                                 <button type="button" class="close" data-dismiss="modal">
+                                     <span aria-hidden="true">&times;</span>
+                                     <!-- tag de acessibilidade -->
+                                     <span class="sr-only">botão para fechar a janela do modal</span>
+                                 </button>
+                                  <h4 class="modal-title">cabeçalho da modal</h4>
+                              </div>
+                              
+                              <div class="modal-body">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam totam omnis quaerat quas tenetur id laborum excepturi fuga iusto, natus adipisci alias saepe a odit fugit vero nisi recusandae, sequi architecto. Recusandae laborum qui quibusdam sequi quae, provident illo aspernatur alias repellendus, ipsa culpa, quidem omnis consequuntur ipsam debitis ex nulla rem tempore sit quisquam ratione! Nobis, hic possimus! Laudantium deleniti repellat provident obcaecati hic quaerat inventore. Rem, eum voluptas.</p>
+                              </div>
+                              
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">
+                                      Fechar
+                                  </button>
+                                  <button type="button" class="btn btn-primary">
+                                      próximo
+                                  </button> 
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+         </div>
+          
+      </div>
+  </div>
+
+    <script src="js/jquery-2.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

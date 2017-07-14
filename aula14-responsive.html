@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Curso Bootstrap 3</title>
+
+<!--    difine a viewport-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- css bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/estilo.css" rel="stylesheet" media="screen">
+
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+           <div class="col-xs-12 bg-color-padding">
+              <h1>responsive utilities</h1>
+               <p class="bg-primary visible-xs-block">você está na resolução XS</p>
+               <p class="bg-success visible-sm-block">você está na resolução SM</p>
+               <p class="bg-warning visible-md-block">você está na resolução MD</p>
+               
+               <a href="#" class="btn btn-success visible-md-block visible-lg-block">quero ter acesso agora</a>
+               
+               <input type="text" class="form-control hidden-xs " placeholder="Digite aqui o seu e-mail">
+           </div>
+           <div class="col-xs-12 bg-color-padding">
+               <h1 class="hidden-xs hidden-sm">tipos</h1>
+               <a href="#" class="btn btn-primary visible-md-block visible-lg-block">Block</a>
+               <a href="#" class="btn btn-primary visible-md-block visible-lg-block">block</a>
+               <a href="#" class="btn btn-success visible-md-inline visible-lg-inline ">inline</a>
+               <a href="#" class="btn btn-success visible-md-inline visible-lg-inline ">inline</a>
+               <a href="#" class="btn btn-danger visible-md-inline-block visible-lg-inline-block">inline-block</a>
+               <a href="#" class="btn btn-danger visible-lg-inline-block visible-md-inline-block">inline-block</a>
+               <a href="#" class="btn btn-warning">botão para teste</a>
+               <a href="#" class="btn btn-danger visible-lg-inline-block visible-md-inline-block">botão para teste</a>
+           </div>
+           <div class="col-xs-12">
+              <button class="btn btn-default btn-lg visible-xs-block"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+               <button class="btn btn-default btn-lg hidden-sm"><span class="glyphicon glyphicon-bullhorn"></span></button>
+               
+           </div>
+       </div>
+   </div>    
+    
+</div>
+
+<script src="js/jquery-2.2.1.js"></script>
+<script src="js/bootstrap.min.js"></script>    
+</body>
+</html>

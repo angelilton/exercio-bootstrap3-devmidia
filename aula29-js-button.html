@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" midia="screen">
+</head>
+<body>
+   <div class="contaner">
+       <div class="row">
+           <div class="col-xs-12">
+             <div class="page-header">
+                 <h1>single toggle</h1>
+             </div>
+             <div class="col-xs-offset-2">
+                 <button class="btn btn-primary" data-toggle="button">botão togle</button>
+                 <button class="btn btn-danger" data-toggle="button">botão togle</button>
+                 
+                 <button class="btn btn-warning btn-js" type="button" id="troca-estado" data-loading-text="salvando...">
+                 Salvar alteração 
+                 <span class="glyphicon glyphicon-save"></span>
+                 </button>
+             </div>
+             
+             <div class="col-xs-6">
+                 <div class="page-header">
+                     <h1>checkbox</h1>
+                 </div>
+                 <div class="btn-group" data-toggle="buttons">
+                    
+                     <label for="" class="btn btn-primary btn-js">
+                     opção 1 <input type="checkbox">
+                     </label>
+                     
+                     <label for="" class="btn btn-primary btn-js">
+                     opção 2 <input type="checkbox">
+                     </label>
+                     
+                     <label for="" class="btn btn-primary btn-js">
+                     opção 3 <input type="checkbox">
+                     </label>
+                     
+                 </div>
+             </div>
+             
+             <div class="col-xs-6">
+                 <div class="page-header">
+                     <h1>radio Group</h1>
+                 </div>
+                 
+                 <div class="btn-group" data-toggle="buttons">
+                    
+                     <label class="btn btn-primary">
+                     opção 1<input type="radio" name="rdgroup01" id="rdgroup01">
+                     </label>
+                     
+                     <label class="btn btn-primary">
+                     opção 2<input type="radio" name="rdgroup01" id="rdgroup02">
+                     </label>
+                     
+                     <label class="btn btn-primary active">
+                     opção 3<input type="radio" name="rdgroup01" id="rdgroup03" checked>
+                     </label>
+                          
+                 </div>
+             </div>
+             
+               
+           </div>
+       </div>
+   </div>
+    <script src="js/jquery-2.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/login.css">
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Estou inscrito</a>
+            </div> 
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span> 
+                        <strong>Epifanio</strong>
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                       <li>
+                           <div class="painel-login">
+                                <div class="row">
+                                    <div class="col-xs-8">
+                                          <a href="#" class="btn btn-primary">Atualizar dados</a> 
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <a href="#" class="btn btn-danger">sair</a>
+                                    </div>
+                                </div>
+                            </div>
+                       </li>
+
+                    </ul>
+                </li>                
+            </ul>       
+      </div>
+    </nav>
+    
+    <!-- container -->
+
+    <div class="container-fluid">
+     <div class="row-fluid">
+         <div class="col-xs-3">
+             <div class="panel-group" id="accordion">
+                 <div class="panel panel-default">
+                     <div class="panel-heading">
+                         <h4 class="panel-title" >
+                             <a data-toggle="collapse" aria-controls="conteudo" href="#conteudo" aria-expanded="false">
+                             <span class="glyphicon glyphicon-folder-close"></span> Conteudo</a>
+                         </h4>
+                     </div>
+                     <div class="panel-collape collapse in" id="conteudo" role="tabpanel" aria-expanded="false">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                               <span class="glyphicon glyphicon-pencil text-primary"></span> <a href="#">Novo post</a>
+                            </li>
+                            
+                            <li class="list-group-item">
+                                <span class="glyphicon glyphicon-list-alt text-primary"></span> <a href="#">Alterar post</a>
+                            </li>
+                            
+                            <li class="list-group-item">
+                                <span class="glyphicon glyphicon-trash text-primary"></span> <a href="#">Excluir post</a>
+                            </li>
+                        </ul>                     
+                     </div>
+                 </div>
+                 
+                 <div class="panel panel-default">
+                     <div class="panel-heading">
+                         <h4 class="panel-title" >
+                             <a data-toggle="collapse" aria-controls="usuario"  href="#usuario" aria-expanded="false">
+                             <span class="glyphicon glyphicon-user"></span> usuario</a>
+                         </h4>
+                     </div>
+                     <div class="panel-collape collapse" id="usuario" role="tabpanel" aria-expanded="false">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                               <span class="glyphicon glyphicon-pencil text-primary"></span> <a href="#">Novo post</a>
+                            </li>
+                            
+                            <li class="list-group-item">
+                                <span class="glyphicon glyphicon-list-alt text-primary"></span> <a href="#">Alterar post</a>
+                            </li>
+                            
+                            <li class="list-group-item">
+                                <span class="glyphicon glyphicon-trash text-primary"></span> <a href="#">Excluir post</a>
+                            </li>
+                        </ul>                     
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="col-xs-9">
+             <div class="well">
+                 <h1 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nobis libero ex quo itaque sit dolore neque iusto ratione, rerum.</p>
+                 <p>Labore obcaecati cupiditate expedita recusandae aspernatur odio illo fugiat impedit, dolorum vel. Sit quibusdam delectus voluptate repellendus, soluta natus dolores?</p>
+                 <p>Deserunt vero facilis dolore quia, a expedita exercitationem, dignissimos ex totam fuga ipsam fugit blanditiis laboriosam amet eius nulla ratione!</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nobis libero ex quo itaque sit dolore neque iusto ratione, rerum.</p>
+                 <p>Labore obcaecati cupiditate expedita recusandae aspernatur odio illo fugiat impedit, dolorum vel. Sit quibusdam delectus voluptate repellendus, soluta natus dolores?</p>
+                 <p>Deserunt vero facilis dolore quia, a expedita exercitationem, dignissimos ex totam fuga ipsam fugit blanditiis laboriosam amet eius nulla ratione!</p>
+                 
+             </div>
+             
+         </div>
+     </div>
+      
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
